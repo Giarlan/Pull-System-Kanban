@@ -77,6 +77,7 @@ function dropSender(e) {
 
 }
 
+/* This function updates recipient-area status*/ 
 function updateAreas() {
     document.querySelectorAll('.area').forEach(area => {
         let name = area.getAttribute('data-name');
@@ -87,11 +88,13 @@ function updateAreas() {
         }       
     });
 
-    if(areas.a === '1' && areas.b === '2' && areas.c === '3' && areas.d === '4' && areas.e === '5' &&
-        areas.f === '6' && area.g ==='7' && areas.h === '8' && areas.i === '9' && areas.j ==='10') {
-            document.querySelector('.areas').classList.add('correct');
+    if(areas.a === '<img src="/assets/images/Imagem1.png" alt="">' && areas.b === '<img src="/assets/images/Imagem2.png" alt="">' && areas.c === '<img src="/assets/images/Imagem3.png" alt="">'
+         && areas.d === '<img src="/assets/images/Imagem4.png" alt="">' && areas.e === '<img src="/assets/images/Imagem5.png" alt="">' &&  areas.f === '<img src="/assets/images/Imagem6.png" alt="">' 
+         && areas.g ==='<img src="/assets/images/Imagem7.png" alt="">' && areas.h === '<img src="/assets/images/Imagem8.png" alt="">'  && areas.i === '<img src="/assets/images/Imagem9.png" alt="">' 
+         && areas.j ==='<img src="/assets/images/Imagem10.png" alt="">') {
+            document.querySelector('.recipient-area').classList.add('correct');
         } else {
-            document.querySelector('.areas').classList.remove('correct');
+            document.querySelector('.recipient-area').classList.remove('correct');
         }
 
 }
