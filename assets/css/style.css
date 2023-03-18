@@ -54,19 +54,18 @@ h2 {
 }
 
 .item {
-    display: flex;
     width: 100px;
     height: 100px;
-    background-color: #1a1a1a;
-    color: #fff;
-    border: 1px solid #fff;
+    background-color: #000;
+    color: #FFF;
     font-size: 30px;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: grab;
 }
 
-.iten.dragging {
+.item.dragging {
     opacity: 0.5;
 }
 
@@ -81,12 +80,12 @@ h2 {
 }
 
 .area {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #FFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 150px;
-    border: 2px solid #fff;
 }
 
 .hover {
