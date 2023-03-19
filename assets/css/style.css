@@ -89,3 +89,28 @@ img {
     width: 120px;
     
 }
+
+#refresh {
+    width: 6rem;
+    height: 2rem;
+    background-color: #333c33;
+    color: #d0d320;
+    border: 2px solid #4a6c29;
+    border-radius: 10px;
+    margin-left: 65%;
+    margin-bottom: 6rem;
+    transition: 1s;
+}
+
+#refresh:hover {
+    width: 6rem;
+    height: 2rem;
+    background-color: #1e1f1d;
+    color: #3e9b3e;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #4a6c29;
+    margin-left: 65%;
+    margin-bottom: 6rem;
+    transition: 1s;
+}
